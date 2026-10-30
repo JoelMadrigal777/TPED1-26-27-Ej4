@@ -1,0 +1,53 @@
+/* COLOR DE FONDO Y COLOR DE LA LETRA */
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin: 40px;
+}
+
+/* TITULO PRINCIPAL */
+h1 {
+    color: #ff4545;
+    font-size: 32px;
+    text-align: center;
+    border: 3px solid #ff4545;
+    padding: 15px;
+}
+
+/* TITULOS SECUNDARIOS */
+h3 {
+    color: #ff7777;
+    font-size: 23px;
+    border-bottom: 2px solid #ff4545;
+    padding-bottom: 5px;
+}
+
+/* PARRAFOS */
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* TEXTO DESTACADO */
+strong {
+    color: #ff7777;
+}
+
+/* LISTA DE VIÑETAS */
+ul {
+    list-style-type: square;
+}
+
+/* LISTA NUMERADA */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* BORDES Y ESPACIADO DE LAS LISTAS */
+ul, ol {
+    border: 1px solid #555555;
+    padding: 20px 40px;
+    line-height: 1.8;
+}
